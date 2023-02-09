@@ -635,3 +635,7 @@ if(b%2===1){
 a=a+b
 }
 console.log("odd "+a)
+
+let x = 10;
+console.log(x)
+
