@@ -44,13 +44,13 @@ test(obj);
 ```
 
 ### 5.Write a function which takes in an array and create two separate arrays for odd numbers and even numbers and finally merge them in the order that all odd numbers will move to the left of the array and all even numbers to right of the array.
-
+```
 let arr = [2, 5, 6, 7, 7, 5, 4, 4, 6];
 let oddNumber = arr.filter((a) => a % 2 === 1);
 let evenNumber = arr.filter((a) => a % 2 === 0);
 let ans = [...oddNumber, ...evenNumber];
 console.log(ans);
-
+```
 ### 6.Create an array of numbers. Now change the position of each element with their next element.
 
 For example : [1,2,3,4,5,6,7]
@@ -129,6 +129,7 @@ console.log(ans);
 ```
 
 ### 13.Given an array of strings, use map and reduce to return the total number of characters in all the strings with a length less than 5.
+```
 let strArr = [
   "adil",
   "ravindra",
@@ -146,7 +147,7 @@ let allCharcter = strArr
     return a + b;
   }, 0);
 console.log(allCharcter);
-
+```
 ### 14.Given an array of numbers, use map, filter, and reduce to return the sum of all the odd numbers multiplied by 3
 ```
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
