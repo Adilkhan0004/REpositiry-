@@ -157,7 +157,7 @@ let ans = arr
     return array + val;
   }, 0);
 console.log(ans);
-
+```
 ### 15.Given a string, reverse the order of the words in the string. For example, "the quick brown fox" becomes "fox brown quick the".
 ```
 let str1 = "the quick brown fox";
